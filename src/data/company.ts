@@ -1,6 +1,6 @@
 /**
  * Company-level content -- the facts, beliefs, and narrative that describe
- * Sonic itself, independent of any single product. Product-specific content
+ * Stonic itself, independent of any single product. Product-specific content
  * belongs in products.ts, not here.
  */
 
@@ -55,16 +55,16 @@ export interface Belief {
   body: string;
 }
 
-/** Sonic's operating philosophy -- what the company believes, independent of
+/** Stonic's operating philosophy -- what the company believes, independent of
  * any specific product's feature set or industry. */
 export const beliefs: Belief[] = [
   {
     title: "Strategy comes before software",
-    body: "Understanding a business's real constraints and growth opportunities has to come first. Sonic works as a strategic partner before it works as a software builder -- the technology follows from that understanding, not the other way around.",
+    body: "Understanding a business's real constraints and growth opportunities has to come first. Stonic works as a strategic partner before it works as a software builder -- the technology follows from that understanding, not the other way around.",
   },
   {
     title: "Software should run the operation, not just report on it",
-    body: "Sonic builds systems that take the order, check the real stock, assign the real driver -- not systems that wait for a human to do the work and then log it.",
+    body: "Stonic builds systems that take the order, check the real stock, assign the real driver -- not systems that wait for a human to do the work and then log it.",
   },
   {
     title: "AI is infrastructure, not a feature",
@@ -80,7 +80,7 @@ export interface ProcessStep {
   label: string;
 }
 
-/** The consistent process Sonic applies to any business, regardless of
+/** The consistent process Stonic applies to any business, regardless of
  * industry -- shown as a compact strip alongside the beliefs above. */
 export const workProcess: ProcessStep[] = [
   { label: "Understand the business" },
@@ -120,7 +120,7 @@ export interface IndustryFocus {
 }
 
 export const industriesIntro =
-  "Sonic's approach isn't tied to one sector. If a business has real operational complexity or real growth ambition, the same process -- understand, identify, build, scale -- applies. These are simply where we've proven it first.";
+  "Stonic's approach isn't tied to one sector. If a business has real operational complexity or real growth ambition, the same process -- understand, identify, build, scale -- applies. These are simply where we've proven it first.";
 
 export const industries: IndustryFocus[] = [
   {
@@ -146,7 +146,7 @@ export const industries: IndustryFocus[] = [
 ];
 
 export const whyGccMena: string[] = [
-  "WhatsApp is the working business interface across the region -- not a habit to break, but the front door Sonic builds software behind.",
+  "WhatsApp is the working business interface across the region -- not a habit to break, but the front door Stonic builds software behind.",
   "Distribution and wholesale form a large, operationally complex layer underneath nearly every retail and food business in the region, and it remains largely manual today.",
   "The region's businesses are growing fast enough that manual coordination is becoming the actual constraint on growth -- the timing for real operational software is now, not later.",
 ];
@@ -162,31 +162,31 @@ export const engagePaths: EngagePath[] = [
   {
     audience: "Businesses",
     headline: "Ready to build, automate, or grow",
-    body: "Whether you need a specific system like Salesman or a broader technology and growth partner, talk to Sonic about what's actually holding your business back -- whatever industry you're in.",
-    cta: "Talk to Sonic",
+    body: "Whether you need a specific system like Salesman or a broader technology and growth partner, talk to Stonic about what's actually holding your business back -- whatever industry you're in.",
+    cta: "Talk to Stonic",
   },
   {
     audience: "Partners",
     headline: "Distributing or reselling into the GCC",
-    body: "If you work with businesses in distribution, wholesale, or retail across the region, Sonic is open to partnerships that bring intelligent operations to more businesses.",
+    body: "If you work with businesses in distribution, wholesale, or retail across the region, Stonic is open to partnerships that bring intelligent operations to more businesses.",
     cta: "Discuss a partnership",
   },
   {
     audience: "Investors",
     headline: "Backing the next generation of GCC business infrastructure",
-    body: "Sonic is early -- built and proven with one real product. If that trajectory is interesting to you, reach out directly.",
+    body: "Stonic is early -- built and proven with one real product. If that trajectory is interesting to you, reach out directly.",
     cta: "Get in touch",
   },
   {
     audience: "Talent",
     headline: "Building AI-operated systems, not AI demos",
-    body: "Sonic is looking for people who want to build software that actually runs a business, not software that just talks about one.",
+    body: "Stonic is looking for people who want to build software that actually runs a business, not software that just talks about one.",
     cta: "Introduce yourself",
   },
 ];
 
 export const storyParagraphs: string[] = [
-  "Sonic started with a direct observation, not a market report: a wholesale business in Saudi Arabia was running entirely on WhatsApp messages, a price list in someone's memory, and a driver who knew his deliveries by heart. It worked -- until it didn't scale, until stock went untracked, until nobody could say for certain what had been promised to whom.",
+  "Stonic started with a direct observation, not a market report: a wholesale business in Saudi Arabia was running entirely on WhatsApp messages, a price list in someone's memory, and a driver who knew his deliveries by heart. It worked -- until it didn't scale, until stock went untracked, until nobody could say for certain what had been promised to whom.",
   "That specific problem became Salesman: a system that keeps the conversation businesses already have with their customers, and puts real software behind it -- real prices, real stock, real delivery assignment, a real audit trail.",
-  "Sonic exists to generalize that same discipline -- AI as infrastructure, data as the source of truth, software that runs the operation instead of reporting on it -- across any business willing to combine real strategy with real technology, starting in the GCC and extending globally.",
+  "Stonic exists to generalize that same discipline -- AI as infrastructure, data as the source of truth, software that runs the operation instead of reporting on it -- across any business willing to combine real strategy with real technology, starting in the GCC and extending globally.",
 ];

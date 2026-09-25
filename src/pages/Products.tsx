@@ -9,7 +9,7 @@ import { products } from "../data/products";
 
 export default function Products() {
   useEffect(() => {
-    document.title = "Products — Sonic";
+    document.title = "Products — Stonic";
   }, []);
 
   return (
@@ -17,16 +17,16 @@ export default function Products() {
       <Section className="pt-20 md:pt-28">
         <Container>
           <Reveal>
-            <Eyebrow>Sonic's Products</Eyebrow>
+            <Eyebrow>Stonic's Products</Eyebrow>
           </Reveal>
           <Reveal delay={80}>
             <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-tight tracking-tight text-[var(--color-text)] md:text-5xl">
-              How Sonic delivers on its infrastructure.
+              How Stonic delivers on its infrastructure.
             </h1>
           </Reveal>
           <Reveal delay={140}>
             <p className="mt-5 max-w-xl text-lg text-[var(--color-text-muted)]">
-              Each Sonic product applies the same underlying discipline --
+              Each Stonic product applies the same underlying discipline --
               AI agents, automation, and real operational data -- to a
               specific industry's way of working.
             </p>
@@ -72,7 +72,7 @@ export default function Products() {
               <div className="flex h-full flex-col items-start justify-center rounded-2xl border border-dashed border-[var(--color-border-strong)] p-7">
                 <div className="eyebrow mb-2">What's Next</div>
                 <p className="text-sm text-[var(--color-text-muted)]">
-                  Each new Sonic product applies the same infrastructure to a
+                  Each new Stonic product applies the same infrastructure to a
                   new industry. What comes after Salesman is being shaped by
                   what we're learning from the businesses running on it now.
                 </p>

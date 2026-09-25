@@ -32,7 +32,7 @@ export function Hero() {
 
           <Reveal delay={160}>
             <p className="mt-6 max-w-lg text-lg leading-relaxed text-[var(--color-text-muted)]">
-              Sonic combines technology, AI and business strategy to help
+              Stonic combines technology, AI and business strategy to help
               businesses build, automate and grow -- in any industry.
               Salesman, our first product, does this for wholesale
               distribution across the GCC.
@@ -42,7 +42,7 @@ export function Hero() {
           <Reveal delay={240}>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <Button as="a" href="/#contact">
-                Talk to Sonic
+                Talk to Stonic
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </Button>
               <Button as="a" href="/products" variant="ghost">

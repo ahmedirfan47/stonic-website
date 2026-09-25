@@ -13,11 +13,11 @@ export function ProductsIntro() {
     <Section id="products" className="border-t border-[var(--color-border)]">
       <Container>
         <Reveal>
-          <Eyebrow>Sonic's Products</Eyebrow>
+          <Eyebrow>Stonic's Products</Eyebrow>
         </Reveal>
         <Reveal delay={80}>
           <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-[var(--color-text)] md:text-4xl">
-            The first application of Sonic's infrastructure.
+            The first application of Stonic's infrastructure.
           </h2>
         </Reveal>
 
@@ -65,7 +65,7 @@ export function ProductsIntro() {
             to="/products"
             className="group mt-10 inline-flex items-center gap-2 text-sm text-[var(--color-text-dim)] hover:text-[var(--color-text)]"
           >
-            See all Sonic products
+            See all Stonic products
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </Link>
         </Reveal>

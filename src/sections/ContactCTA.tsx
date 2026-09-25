@@ -23,7 +23,7 @@ export function ContactCTA() {
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     // TODO(backend): send `form` to a real endpoint / email service.
-    console.log("Sonic contact form submission:", form);
+    console.log("Stonic contact form submission:", form);
     setSent(true);
   }
 
@@ -36,7 +36,7 @@ export function ContactCTA() {
         <div className="grid gap-14 md:grid-cols-2">
           <div>
             <Reveal>
-              <Eyebrow>Talk to Sonic</Eyebrow>
+              <Eyebrow>Talk to Stonic</Eyebrow>
             </Reveal>
             <Reveal delay={80}>
               <h2 className="text-3xl font-bold tracking-tight text-[var(--color-text)] md:text-4xl">

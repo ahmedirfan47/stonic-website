@@ -11,7 +11,7 @@ export interface Product {
 }
 
 /**
- * Product registry. This is how Sonic's product line is presented --
+ * Product registry. This is how Stonic's product line is presented --
  * separate from company-level content in company.ts. Adding a second
  * product means adding one entry here (and, if it deserves a full page,
  * one route in App.tsx); /products and the homepage both read from this

@@ -12,4 +12,4 @@ export const navLinks: NavLink[] = [
   { label: "Industries", href: "/#industries" },
 ];
 
-export const ctaLabel = "Talk to Sonic";
+export const ctaLabel = "Talk to Stonic";

@@ -39,7 +39,7 @@ export default function SalesmanProduct() {
   const p = flagshipProduct;
 
   useEffect(() => {
-    document.title = "Salesman — Sonic";
+    document.title = "Salesman — Stonic";
   }, []);
 
   return (
@@ -52,7 +52,7 @@ export default function SalesmanProduct() {
               className="mb-6 inline-flex items-center gap-1.5 text-sm text-[var(--color-text-dim)] hover:text-[var(--color-text)]"
             >
               <ArrowLeft size={14} />
-              A Sonic product
+              A Stonic product
             </Link>
           </Reveal>
           <Reveal delay={40}>
@@ -76,7 +76,7 @@ export default function SalesmanProduct() {
           <Reveal delay={260}>
             <div className="mt-8">
               <Button as="a" href="/#contact">
-                Talk to Sonic about Salesman
+                Talk to Stonic about Salesman
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </Button>
             </div>
@@ -154,7 +154,7 @@ export default function SalesmanProduct() {
           <Reveal delay={140}>
             <div className="mt-8 flex justify-center">
               <Button as="a" href="/#contact">
-                Talk to Sonic
+                Talk to Stonic
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </Button>
             </div>

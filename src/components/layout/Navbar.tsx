@@ -31,7 +31,7 @@ export function Navbar() {
           className="text-lg font-bold tracking-tight text-[var(--color-text)]"
           onClick={() => setOpen(false)}
         >
-          SONIC
+          STONIC
         </Link>
 
         {/* Desktop nav */}

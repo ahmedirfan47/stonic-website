@@ -11,11 +11,11 @@ export function Engage() {
     <Section className="border-t border-[var(--color-border)]">
       <Container>
         <Reveal>
-          <Eyebrow>Work With Sonic</Eyebrow>
+          <Eyebrow>Work With Stonic</Eyebrow>
         </Reveal>
         <Reveal delay={80}>
           <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-[var(--color-text)] md:text-4xl">
-            Different ways to engage with Sonic.
+            Different ways to engage with Stonic.
           </h2>
         </Reveal>
 

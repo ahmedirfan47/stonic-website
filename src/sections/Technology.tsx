@@ -15,7 +15,7 @@ export function Technology() {
         </Reveal>
         <Reveal delay={80}>
           <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-[var(--color-text)] md:text-4xl">
-            Four pillars behind every Sonic system.
+            Four pillars behind every Stonic system.
           </h2>
         </Reveal>
         <Reveal delay={140}>

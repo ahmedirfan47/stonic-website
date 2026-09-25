@@ -12,7 +12,7 @@ export function Story() {
         </Reveal>
         <Reveal delay={80}>
           <h2 className="text-3xl font-bold tracking-tight text-[var(--color-text)] md:text-4xl">
-            Why Sonic exists.
+            Why Stonic exists.
           </h2>
         </Reveal>
 

@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
             <div className="text-lg font-bold tracking-tight text-[var(--color-text)]">
-              SONIC
+              STONIC
             </div>
             <p className="mt-3 max-w-xs text-sm text-[var(--color-text-dim)]">
               A technology company building AI-operated business
@@ -70,7 +70,7 @@ export function Footer() {
                   href="/#contact"
                   className="text-sm text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)]"
                 >
-                  Talk to Sonic
+                  Talk to Stonic
                 </a>
               </li>
             </ul>
@@ -78,7 +78,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-3 border-t border-[var(--color-border)] pt-6 text-xs text-[var(--color-text-dim)] md:flex-row md:items-center md:justify-between">
-          <span>© {year} Sonic. All rights reserved.</span>
+          <span>© {year} Stonic. All rights reserved.</span>
           <span>Building for the GCC, with a global vision.</span>
         </div>
       </Container>
